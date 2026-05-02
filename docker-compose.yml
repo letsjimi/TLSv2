@@ -1,0 +1,7 @@
+services:
+  tlsv2:
+    build: .
+    ports:
+      - "8080:80"
+    container_name: tlsv2
+    restart: unless-stopped
